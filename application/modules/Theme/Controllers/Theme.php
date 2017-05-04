@@ -14,4 +14,7 @@ class Theme extends MY_Controller {
 	public function load_page($data){
 		$this->load->view('index', $data);
 	}
+    public function view($view,$data){
+        $this->load->view($view, $data);
+    }
 }

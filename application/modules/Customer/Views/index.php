@@ -1,3 +1,11 @@
+<div class="row">
+    <div class="col-md-6 pull-right text-right">
+        <button class="btn btn-info" onclick="showAjaxModal('<?php echo base_url();?>customer/new_room/0/new');">
+            <i class="fa fa-user-plus"></i>
+            <?php echo get_phrase('new_store');?>
+        </button>
+    </div>
+</div>
 <div class="table-responsive">
     <table id="example" class="display table" style="width: 100%; cellspacing: 0;">
         <thead>
@@ -40,7 +48,7 @@
                                             <a class="tip image btn btn-primary btn-xs" href="" title="View image">
                                                 <i class='fa fa-picture-o'></i>
                                             </a>
-                                            <a href="<?php echo base_url();?>customer/update/<?php echo $customer->id;?>" title="Edit" class='tip btn btn-warning btn-xs'>
+                                            <a href="#" onclick="showAjaxModal('<?php echo base_url();?>customer/new_room/<?php echo $customer->id;?>/new')" title="Edit" class='tip btn btn-warning btn-xs'>
                                                 <i class='fa fa-edit'></i>
                                             </a>
                                         </div>

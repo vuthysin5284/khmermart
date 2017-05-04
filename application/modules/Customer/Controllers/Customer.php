@@ -9,10 +9,26 @@ class Customer extends MY_Controller {
 	}
 
 	public function index(){
-		$data ['page_name'] = 'customer/index';
+		$data ['page_title'] = get_phrase('store_list');
+        $data ['page_width'] = '50';
+        $data ['page_name'] = 'customer/index';
 		$data ['customers'] = $this->customer->get_all();
+
+
 		$this->theme->load_page($data);
 	}
+
+    /*
+   *	$page_name		=	The name of page
+   */
+    function new_room($param1 = '',$param2 = '',$param3 = '')
+    {
+        $obj = new stdClass();
+        /*$obj->room_id = $param1;*/
+        $page_data["room_detail"] = "";//$this->room_m->get_room_detail($obj);
+        $page_data["crud"] = $param2;
+        $this->theme->view('customer/modal_new_room' ,$page_data);
+    }
 
 	public function create(){
 		$data ['page_name'] = 'customer/create';
