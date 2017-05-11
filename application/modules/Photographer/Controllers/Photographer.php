@@ -1,39 +1,36 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Customer extends MY_Controller {
+class Photographer extends MY_Controller {
 
 	function __construct(){
 		parent::__construct();
-		$this->load->model('Customer_model', 'customer');
+		$this->load->model('Photographer_model', 'photographer_m');
 	}
 
-	/*public function index(){
-		$data ['page_title'] = get_phrase('store_list');
-        $data ['page_width'] = '50';
-        $data ['page_name'] = 'customer/index';
-		$data ['customers'] = $this->customer->get_all();
-
-
-		$this->theme->load_page($data);
-	}*/
-
-	public function customer_list(){
-        $page_data['page_title'] = get_phrase('store_list');
-        $page_data ['customers'] = $this->customer->get_all();
-        $this->theme->view('customer/index',$page_data);
+    public function photograph(){
+        $data ['page_name'] = 'photographer/photograph';
+        $data["page_title"] = "photographer";
+        $data ['customers'] = $this->photographer_m->get_all();
+        $this->theme->load_page($data);
     }
-
-    /*
-   *	$page_name		=	The name of page
-   */
-    function new_room($param1 = '',$param2 = '',$param3 = '')
-    {
-        $obj = new stdClass();
-        /*$obj->room_id = $param1;*/
-        $page_data["room_detail"] = "";//$this->room_m->get_room_detail($obj);
-        $page_data["crud"] = $param2;
-        $this->theme->view('customer/modal_new_room' ,$page_data);
+    public function videographer(){
+        $data ['page_name'] = 'photographer/videographer';
+        $data["page_title"] = "videographer";
+        $data ['customers'] = $this->photographer_m->get_all();
+        $this->theme->load_page($data);
+    }
+    public function entertainment(){
+        $data ['page_name'] = 'photographer/entertainment';
+        $data["page_title"] = "entertainment";
+        $data ['customers'] = $this->photographer_m->get_all();
+        $this->theme->load_page($data);
+    }
+    public function music(){
+        $data ['page_name'] = 'photographer/music';
+        $data["page_title"] = "music";
+        $data ['customers'] = $this->photographer_m->get_all();
+        $this->theme->load_page($data);
     }
 
 	public function create(){

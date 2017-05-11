@@ -8,7 +8,8 @@ class Dashboard extends MY_Controller {
 	}
 
 	public function index(){
-		$data ['page_name'] = 'dashboard/index';
+		$data ['page_title'] = 'dashboard';
+        $data ['page_name'] = 'dashboard/index';
 		$this->theme->load_page($data);
 	}
 }

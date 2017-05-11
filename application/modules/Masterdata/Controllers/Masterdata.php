@@ -1,28 +1,20 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Customer extends MY_Controller {
+class Masterdata extends MY_Controller {
 
 	function __construct(){
 		parent::__construct();
-		$this->load->model('Customer_model', 'customer');
+		$this->load->model('masterdata_model', 'masterdata_m');
 	}
 
-	/*public function index(){
-		$data ['page_title'] = get_phrase('store_list');
+	public function index(){
+		$data ['page_title'] = get_phrase('master_data');
         $data ['page_width'] = '50';
-        $data ['page_name'] = 'customer/index';
-		$data ['customers'] = $this->customer->get_all();
-
+        $data ['page_name'] = 'masterdata/index';
 
 		$this->theme->load_page($data);
-	}*/
-
-	public function customer_list(){
-        $page_data['page_title'] = get_phrase('store_list');
-        $page_data ['customers'] = $this->customer->get_all();
-        $this->theme->view('customer/index',$page_data);
-    }
+	}
 
     /*
    *	$page_name		=	The name of page

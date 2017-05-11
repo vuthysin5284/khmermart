@@ -1,3 +1,10 @@
-RewriteEngine on
-RewriteCond $1 !^(index\.php|assets|images|css|robots\.txt)
-RewriteRule ^(.*)$ /location/index.php/$1 [L]
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /khmermart/
+	RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+	RewriteCond %{REQUEST_URI} !/system/.* [NC]
+	RewriteRule (.*?)index\.php/*(.*) /khmermart/$1$2 [R=301,NE,L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
