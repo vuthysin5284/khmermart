@@ -6,6 +6,4 @@
         <div><p class="no-s">© 2017 Khmermart. All Rights Reserved.</p></div>
     </div>
     <br />
-    <br />
-    <br />
 </div>
