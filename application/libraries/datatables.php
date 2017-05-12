@@ -14,7 +14,7 @@
  *             Yusuf Ozdemir <yusuf@ozdemir.be>
  * @link       http://ellislab.com/forums/viewthread/160896/
  */
-class datatables
+class Datatables
 {
     /**
      * Global container variables for chained argument results

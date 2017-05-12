@@ -7,7 +7,7 @@ class MY_Model extends CI_Model {
     function __construct(){
         parent::__construct();
     }
- 
+
     function insert($data){
         if($this->db->insert($this->table, $data)){
             return $this->db->insert_id();
@@ -31,13 +31,12 @@ class MY_Model extends CI_Model {
         $query = $this->db->get($this->table);
         return $query->result();
     }
- 
+
     function get_all($sort = 'id', $order = 'asc'){
         $this->db->order_by($sort, $order);
-        $query = $this->db->get($this->table);
-        return $query->result();
+        return $this->db->get($this->table)->result();
     }
- 
+
     function delete($id){
         if ($id != NULL){
             $this->db->where('id', $id);
@@ -46,5 +45,5 @@ class MY_Model extends CI_Model {
             }                    
             return false;                        
         }
-    }       
+    }
 }
