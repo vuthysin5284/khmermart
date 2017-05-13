@@ -10,7 +10,7 @@ class Shop extends MY_Controller {
 
     public function index(){
         $data['page_name'] = 'shop/index';
-        $data["page_title"] = "shopping_list";
+        $data["page_title"] = get_phrase("shopping_list");
         $data['customers'] = $this->shop_m->get_all();
         $this->load->view('index',$data);
     }

@@ -42,11 +42,11 @@
         <div class="page-inner">  
 			<div class="page-breadcrumb">
                 <ol class="breadcrumb container">
-                    <li><a href="<?php echo base_url();?>">Home</a></li> 
+                    <li><a href="<?php echo base_url();?>">Home</a></li>
                     <li class="active"><?php echo $page_title;?></li>
                 </ol>
-            </div>
-            
+
+            </div> 
         	<div id="main-wrapper" class="container">
 			<?php include $page_name.'.php';?>  
             </div>

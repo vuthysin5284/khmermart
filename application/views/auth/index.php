@@ -46,12 +46,13 @@
                             <div class="login-box">
                                 <a href="index.html" class="logo-name text-lg text-center">Modern</a>
                                 <p class="text-center m-t-md">Please login into your account.</p>
-                                <form class="m-t-md" action="<?php echo base_url();?>/auth/login">
+                                <?php echo form_open(base_url() . 'auth/login' , array('class' => 'form-horizontal form-groups-bordered validate ajax-submit m-t-md','enctype' => 'multipart/form-data'));?>
+
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Email" required>
+                                        <input type="text" class="form-control" name="username" placeholder="Username" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" class="form-control" placeholder="Password" required>
+                                        <input type="password" class="form-control" name="password" placeholder="Password" required>
                                     </div>
                                     <button type="submit" class="btn btn-success btn-block">Login</button>
                                     <a href="#" class="display-block text-center m-t-md text-sm">Forgot Password?</a>

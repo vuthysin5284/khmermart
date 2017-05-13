@@ -6,6 +6,7 @@ class Auth extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->library('session');
+        $this->load->model('Auth_model', 'auth_m');
 	}
 
 	public function index(){
@@ -15,7 +16,13 @@ class Auth extends CI_Controller {
 	}
 
 	public function login(){
-		$user_session = array('logged'  => TRUE);
+        /*$username = $_POST["username"];
+        $password = $_POST["password"];
+        $result = $this->auth_m->login($username,$password);
+        var_dump($result);
+        die();*/
+
+        $user_session = array('logged'  => TRUE);
 		$this->session->set_userdata($user_session);
 		redirect(base_url());
 	}

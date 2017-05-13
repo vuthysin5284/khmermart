@@ -1,6 +1,4 @@
 
-<link href="<?php echo base_url(); ?>assets/plugins/product-preview-slider/css/style.css" rel="stylesheet" type="text/css">
-
 <style>
     .cd-gallery {
         margin: auto;
@@ -16,12 +14,6 @@
                     <ul class="cd-item-wrapper">
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-1.jpg" alt="Preview image">
-                        </li>
-                        <li class="move-right" data-sale="true" data-price="$22">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-3.jpg" alt="Preview image">
                         </li>
                     </ul>
                 </a>
@@ -41,12 +33,6 @@
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-1.jpg" alt="Preview image">
                         </li>
-                        <li class="move-right">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-3.jpg" alt="Preview image">
-                        </li>
                     </ul>
                 </a>
                 <div class="cd-item-info">
@@ -63,12 +49,6 @@
                     <ul class="cd-item-wrapper">
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-1.jpg" alt="Preview image">
-                        </li>
-                        <li class="move-right">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-3.jpg" alt="Preview image">
                         </li>
                     </ul>
                 </a>
@@ -87,12 +67,6 @@
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-1.jpg" alt="Preview image">
                         </li>
-                        <li class="move-right" data-sale="true" data-price="$22">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-3.jpg" alt="Preview image">
-                        </li>
                     </ul>
                 </a>
                 <div class="cd-item-info">
@@ -110,12 +84,6 @@
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-1.jpg" alt="Preview image">
                         </li>
-                        <li class="move-right">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-3.jpg" alt="Preview image">
-                        </li>
                     </ul>
                 </a>
                 <div class="cd-item-info">
@@ -132,12 +100,6 @@
                     <ul class="cd-item-wrapper">
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-1.jpg" alt="Preview image">
-                        </li>
-                        <li class="move-right">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-3.jpg" alt="Preview image">
                         </li>
                     </ul>
                 </a>
@@ -157,12 +119,6 @@
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-1.jpg" alt="Preview image">
                         </li>
-                        <li class="move-right" data-sale="true" data-price="$22">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-3.jpg" alt="Preview image">
-                        </li>
                     </ul>
                 </a>
                 <div class="cd-item-info">
@@ -180,12 +136,6 @@
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-1.jpg" alt="Preview image">
                         </li>
-                        <li class="move-right">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-3.jpg" alt="Preview image">
-                        </li>
                     </ul>
                 </a>
                 <div class="cd-item-info">
@@ -202,12 +152,6 @@
                     <ul class="cd-item-wrapper">
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-1.jpg" alt="Preview image">
-                        </li>
-                        <li class="move-right">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-3.jpg" alt="Preview image">
                         </li>
                     </ul>
                 </a>
@@ -226,12 +170,6 @@
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-1.jpg" alt="Preview image">
                         </li>
-                        <li class="move-right" data-sale="true" data-price="$22">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-3.jpg" alt="Preview image">
-                        </li>
                     </ul>
                 </a>
                 <div class="cd-item-info">
@@ -248,12 +186,6 @@
                     <ul class="cd-item-wrapper">
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-1.jpg" alt="Preview image">
-                        </li>
-                        <li class="move-right">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-cap-3.jpg" alt="Preview image">
                         </li>
                     </ul>
                 </a>
@@ -272,12 +204,6 @@
                         <li class="selected">
                             <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-1.jpg" alt="Preview image">
                         </li>
-                        <li class="move-right">
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-2.jpg" alt="Preview image">
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-bag-3.jpg" alt="Preview image">
-                        </li>
                     </ul>
                 </a>
                 <div class="cd-item-info">
@@ -293,10 +219,3 @@
     </div>
 </div><!-- Row -->
 
-
-<script src="<?php echo base_url(); ?>assets/plugins/gridgallery/js/imagesloaded.pkgd.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/gridgallery/js/masonry.pkgd.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/gridgallery/js/classie.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/gridgallery/js/cbpgridgallery.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/product-preview-slider/js/jquery.mobile.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/plugins/product-preview-slider/js/main.js"></script>

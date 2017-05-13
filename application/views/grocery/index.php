@@ -80,11 +80,20 @@
 
     </ul>
 </div>
-<div class="col-md-10">
+<div class="col-md-8">
     <div class="panel-body">
         <div class="menu-overly-mask"></div>
         <div class="adds-wrapper" style="margin-bottom:200px">
                 <div class="tab-pane active" id="document_render">Loading...</div>
+        </div>
+    </div>
+
+</div>
+
+<div class="col-md-2">
+    <div class="panel panel-white">
+        <div class="panel-body mailbox-content">
+            Recommendation
         </div>
     </div>
 

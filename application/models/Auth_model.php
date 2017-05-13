@@ -5,6 +5,7 @@ class Auth_model extends MY_Model {
  
 	function __construct(){
 		parent::__construct();
+        $this->db = $this->load->database('default', TRUE);
 		$this->table = 'users';
 	}
 
