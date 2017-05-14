@@ -34,7 +34,7 @@
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
-                            <i class="fa fa-shopping-cart"></i><span class="badge badge-success pull-right"><?php echo count($this->cart->contents());?></span></a>
+                            <i class="fa fa-shopping-cart"></i><span class="badge badge-success pull-right" id="item"><?php echo count($this->cart->contents());?></span></a>
                         <ul class="dropdown-menu title-caret dropdown-lg" role="menu">
                             <li><p class="drop-title">Your Shopping <?php echo count($this->cart->contents());?> item(s)</p></li>
                             <li class="dropdown-menu-list slimscroll tasks">

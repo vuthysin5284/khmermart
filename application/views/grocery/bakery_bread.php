@@ -68,7 +68,7 @@
                     sex : ''
                 },
                 success: function(response) {
-
+                    $('#item').text(response);
                 }
             });
         });

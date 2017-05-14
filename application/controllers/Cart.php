@@ -16,6 +16,7 @@ class Cart extends CI_Controller {
 		   "price"  => 23
 		);
 		$this->cart->insert($data); //return rowid 
+		echo count($this->cart->contents());
 	}
 
 	public function remove(){
