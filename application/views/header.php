@@ -34,62 +34,22 @@
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
-                            <i class="fa fa-shopping-cart"></i><span class="badge badge-success pull-right">7</span></a>
+                            <i class="fa fa-shopping-cart"></i><span class="badge badge-success pull-right"><?php echo count($this->cart->contents());?></span></a>
                         <ul class="dropdown-menu title-caret dropdown-lg" role="menu">
-                            <li><p class="drop-title">Your Shopping 7 item(s)</p></li>
+                            <li><p class="drop-title">Your Shopping <?php echo count($this->cart->contents());?> item(s)</p></li>
                             <li class="dropdown-menu-list slimscroll tasks">
                                 <ul class="list-unstyled">
-                                    <li>
-                                        <a href="#">
-                                            <span class="badge badge-roundless badge-default pull-right">1min ago</span>
-                                            <p class="task-details">New user registered.</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="badge badge-roundless badge-default pull-right">24min ago</span>
-                                            <p class="task-details">Database error.</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="badge badge-roundless badge-default pull-right">1h ago</span>
-                                            <p class="task-details">Reached 24k likes</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="badge badge-roundless badge-default pull-right">1h ago</span>
-                                            <p class="task-details">Reached 24k likes</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="badge badge-roundless badge-default pull-right">1h ago</span>
-                                            <p class="task-details">Reached 24k likes</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="badge badge-roundless badge-default pull-right">1h ago</span>
-                                            <p class="task-details">Reached 24k likes</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="badge badge-roundless badge-default pull-right">1h ago</span>
-                                            <p class="task-details">Reached 24k likes</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="badge badge-roundless badge-default pull-right">1h ago</span>
-                                            <p class="task-details">Reached 24k likes</p>
-                                        </a>
-                                    </li>
+                                    <?php foreach($this->cart->contents() as $items) : ?>
+                                        <li>
+                                            <a href="#">
+                                                <span class="badge badge-roundless badge-default pull-right">1min ago</span>
+                                                <p class="task-details"><?php echo $items["name"]. "(". $items["qty"] .")";?></p>
+                                            </a>
+                                        </li>
+                                    <?php endforeach;?>
                                 </ul>
                             </li>
-                            <li class="drop-all"><a href="#" class="text-center">Total: 200 USD</a></li>
+                            <li class="drop-all"><a href="#" class="text-center">Total: <?php echo $this->cart->total();?> USD</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
