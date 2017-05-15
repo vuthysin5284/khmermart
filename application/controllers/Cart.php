@@ -10,7 +10,7 @@ class Cart extends CI_Controller {
 
 	public function add(){
 		$data = array(
-		   "id"  => 1,
+		   "id"  => $this->input->post('id'),
 		   "name"  => "ABC",
 		   "qty"  => 1,
 		   "price"  => 23
