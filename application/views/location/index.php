@@ -28,21 +28,13 @@
 <div class="col-md-2" style="padding-right:0px; padding-left: 10px;">
     <ul class="nav mailbox-nav" id="document" role="tablist" >
         <li class="active default">
-            <a href="<?php echo base_url();?>shop/flower"
-               data-url="<?php echo base_url();?>shop/flower" data-toggle="tab" aria-expanded="false">
-                <i class="fa fa-inbox"></i>Flowers<span class="badge badge-success pull-right">346</span></a></li>
+            <a href="<?php echo base_url();?>customer/customer_list"
+               data-url="<?php echo base_url();?>style/bakery" data-toggle="tab" aria-expanded="false">
+                <i class="fa fa-inbox"></i>Venue<span class="badge badge-success pull-right">346</span></a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>shop/cake"
-               data-url="<?php echo base_url();?>shop/cake" data-toggle="tab" aria-expanded="false">
-                <i class="fa fa-sign-out"></i>Wedding cake</a></li>
-        <li class="default">
-            <a href="<?php echo base_url();?>shop/gift"
-               data-url="<?php echo base_url();?>shop/gift" data-toggle="tab" aria-expanded="false">
-                <i class="fa fa-file-text-o"></i>Caterer</a></li>
-        <li class="default">
-            <a href="<?php echo base_url();?>shop/gift"
-               data-url="<?php echo base_url();?>shop/gift" data-toggle="tab" aria-expanded="false">
-                <i class="fa fa-file-text-o"></i>Gifts</a></li>
+            <a href="<?php echo base_url();?>customer/customer_list"
+               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+                <i class="fa fa-sign-out"></i>Hotel</a></li>
     </ul>
 </div>
 <div class="col-md-8">

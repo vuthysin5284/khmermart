@@ -1,17 +1,17 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Masterdata extends MY_Controller {
+class Budget extends MY_Controller {
 
 	function __construct(){
 		parent::__construct();
-		$this->load->model('masterdata_model', 'masterdata_m');
+		$this->load->model('budget_model', 'budget_m');
 	}
 
 	public function index(){
-		$data ['page_title'] = get_phrase('master_data');
+		$data ['page_title'] = get_phrase('budget');
         $data ['page_width'] = '50';
-        $data ['page_name'] = 'masterdata/index';
+        $data ['page_name'] = 'budget/index';
 
 		$this->load->view("index",$data);
 	}
@@ -25,7 +25,7 @@ class Masterdata extends MY_Controller {
         /*$obj->room_id = $param1;*/
         $page_data["room_detail"] = "";//$this->room_m->get_room_detail($obj);
         $page_data["crud"] = $param2;
-        $this->load->view('customer/modal_new_room' ,$page_data);
+        $this->load->view('budget/modal_new_room' ,$page_data);
     }
 
 	

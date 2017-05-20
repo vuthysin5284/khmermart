@@ -1,18 +1,20 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Customer extends MY_Controller {
+class Location extends MY_Controller {
 
 	function __construct(){
 		parent::__construct();
-		$this->load->model('customer_model', 'customer');
+		$this->load->model('location_model', 'location_m');
 	}
 
-	public function customer_list(){
-        $page_data['page_title'] = get_phrase('store_list');
-        $page_data ['customers'] = $this->customer->get_all();
-        $this->load->view('customer/index',$page_data);
-    }
+	public function index(){
+		$data ['page_title'] = get_phrase('location');
+        $data ['page_width'] = '50';
+        $data ['page_name'] = 'location/index';
+
+		$this->load->view("index",$data);
+	}
 
     /*
    *	$page_name		=	The name of page
@@ -26,4 +28,5 @@ class Customer extends MY_Controller {
         $this->load->view('customer/modal_new_room' ,$page_data);
     }
 
+	
 }

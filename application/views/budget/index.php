@@ -35,26 +35,6 @@
             <a href="<?php echo base_url();?>customer/customer_list"
                data-url="<?php echo base_url();?>customer/customer_list" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-sign-out"></i>Details Budget</a></li>
-        <li class="default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>customer/customer_list" data-toggle="tab" aria-expanded="false">
-                <i class="fa fa-file-text-o"></i>Class Data</a></li>
-        <li class="default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>customer/customer_list">
-                <i class="fa fa-exclamation-circle"></i>Transportation</a></li>
-        <li class="default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>customer/customer_list">
-                <i class="fa fa-exclamation-circle"></i>Location</a></li>
-        <li class="default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>customer/customer_list">
-                <i class="fa fa-exclamation-circle"></i>Floor</a></li>
-        <li class="default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>customer/customer_list">
-                <i class="fa fa-exclamation-circle"></i>building</a></li>
     </ul>
 </div>
 <div class="col-md-8">
