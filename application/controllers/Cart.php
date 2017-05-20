@@ -30,5 +30,17 @@ class Cart extends CI_Controller {
 	public function clear(){
   		$this->cart->destroy();
 	}
-	
+
+    /*
+   *	$view_item
+   */
+    function view_item($param1 = '',$param2 = '',$param3 = '')
+    {
+        $obj = new stdClass();
+        /*$obj->room_id = $param1;*/
+        $page_data["room_detail"] = "";
+        $this->load->view('cart/modal_view_item' ,$page_data);
+    }
+
+
 }

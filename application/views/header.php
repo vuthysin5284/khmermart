@@ -30,9 +30,13 @@
                     </li>
 
                     <li><a href="javascript:void(0);" class="waves-effect waves-button waves-classic">ខ្មែរ</a></li>
+                    <li>
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic"
+                           onclick="showAjaxModal('<?php echo base_url();?>cart/view_item');">
+                            <i class="fa fa-shopping-cart"></i><span class="badge badge-success pull-right" id="item"><?php echo count($this->cart->contents());?></span></a>
+                    </li>
 
-
-                    <li class="dropdown">
+                    <!--li class="dropdown">
                         <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
                             <i class="fa fa-shopping-cart"></i><span class="badge badge-success pull-right" id="item"><?php echo count($this->cart->contents());?></span></a>
                         <ul class="dropdown-menu title-caret dropdown-lg" role="menu">
@@ -51,7 +55,7 @@
                             </li>
                             <li class="drop-all"><a href="#" class="text-center">Total: <?php echo $this->cart->total();?> USD</a></li>
                         </ul>
-                    </li>
+                    </li-->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
                             <span class="user-name">Sin Vuthy<i class="fa fa-angle-down"></i></span>
