@@ -23,7 +23,7 @@
                     <em class="cd-price">$26</em>
                 </div>
                 <div class="cd-item-details">
-                    <a href="#" class="pull-left add-to-cart" id="1"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                    <a href="javascript:void(0);" class="pull-left add-to-cart" id="1"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                     <a href="#" class="pull-right details"><i class="fa fa-list-ul"></i>Details</a>
                 </div>
             </li>
@@ -42,7 +42,7 @@
                     <em class="cd-price">$42</em>
                 </div>
                 <div class="cd-item-details">
-                    <a href="#" class="pull-left add-to-cart" id="2"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                    <a href="javascript:void(0);" class="pull-left add-to-cart" id="2"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                     <a href="#" class="pull-right details"><i class="fa fa-list-ul"></i>Details</a>
                 </div>
             </li>
