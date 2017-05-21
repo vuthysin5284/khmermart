@@ -10,6 +10,7 @@ class Grocery extends CI_Controller {
 
 	public function index(){
 		$data['page_name'] = 'grocery/index';
+		$data ['page_width'] = '50';
 		$data["page_title"] = get_phrase("grocery_list");
 		$this->load->view("index",$data);
 	}

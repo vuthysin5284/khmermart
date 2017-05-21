@@ -12,7 +12,8 @@ class Cart extends CI_Controller {
 		   "id"  => $this->input->post('id'),
 		   "name"  => "ABC",
 		   "qty"  => 1,
-		   "price"  => 23
+		   "price"  => 5,
+		   "subtotal"  => 5
 		);
 		$this->cart->insert($data); //return rowid 
 		echo count($this->cart->contents());
