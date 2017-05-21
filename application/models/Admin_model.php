@@ -5,6 +5,6 @@ class Admin_model extends MY_Model {
  
 	function __construct(){
 		parent::__construct();
-		$this->table = 'customers';
+		$this->table = 'business_partner';
 	}
 }
