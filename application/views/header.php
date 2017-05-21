@@ -31,9 +31,12 @@
 
                     <li><a href="javascript:void(0);" class="waves-effect waves-button waves-classic">ខ្មែរ</a></li>
                     <li>
-                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic"
-                           onclick="showAjaxModal('<?php echo base_url();?>cart/view_item');">
-                            <i class="fa fa-shopping-cart"></i><span class="badge badge-success pull-right" id="item"><?php echo count($this->cart->contents());?></span></a>
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic" onclick="showAjaxModal('<?php echo base_url();?>cart/view_item');">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span class="badge badge-success pull-right" id="item">
+                                <?php echo count($this->cart->contents());?>
+                            </span>
+                        </a>
                     </li>
 
                     <!--li class="dropdown">
