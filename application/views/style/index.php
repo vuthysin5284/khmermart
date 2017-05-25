@@ -28,22 +28,22 @@
 <div class="col-md-2" style="padding-right:0px; padding-left: 10px;">
     <ul class="nav mailbox-nav" id="document" role="tablist" >
         <li class="active default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>style/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>style/attire"
+               data-url="<?php echo base_url();?>style/attire" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-inbox"></i>Attire<span class="badge badge-success pull-right">346</span></a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>style/hair_makeup"
+               data-url="<?php echo base_url();?>style/hair_makeup" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-sign-out"></i>Hair & makeup</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>style/flower"
+               data-url="<?php echo base_url();?>style/flower" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Flowers</a></li>
 
 
     </ul>
 </div>
-<div class="col-md-8">
+<div class="col-md-10">
     <div class="panel panel-white">
         <div class="panel-body mailbox-content">
 
@@ -60,11 +60,11 @@
     </div>
 </div>
 
-<div class="col-md-2">
+<!--div class="col-md-2">
     <div class="panel panel-white">
         <div class="panel-body mailbox-content">
             Recommendation
         </div>
     </div>
 
-</div>
+</div-->

@@ -1,10 +1,15 @@
 <div class="table-responsive">
-    <table id="example" class="display table" style="width: 100%; cellspacing: 0;">
+<table id="example" class="display table" style="width: 100%; cellspacing: 0;">
         <thead>
-            <tr>
-                <th></th>
-                <th>Track name</th>
-                <th>Artist</th>
+        <tr>
+                <th>Caterer</th>
+                <th>Contact</th>
+                <th>name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Website</th>
+                <th>Cost/person</th>
+                <th>Total cost</th>
                 <th>Notes</th>
             </tr>
             <tbody>
@@ -15,6 +20,11 @@
                             <tr>
                                 <td><?php echo $customer->id;?></td>
                                 <td><?php echo $customer->names;?></td>
+                                <td><?php echo $customer->id;?></td>
+                                <td><?php echo $customer->id;?></td>
+                                <td><?php echo $customer->id;?></td>
+                                <td><?php echo $customer->id;?></td>
+                                <td><?php echo $customer->id;?></td>
                                 <td><?php echo $customer->id;?></td>
                                 <td><?php echo $customer->id;?></td>
                                 <td>

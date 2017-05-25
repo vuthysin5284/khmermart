@@ -28,54 +28,54 @@
 <div class="col-md-2" style="padding-right:0px; padding-left: 10px;">
     <ul class="nav mailbox-nav" id="document" role="tablist" >
         <li class="active default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-inbox"></i>Bakery and Bread<span class="badge badge-success pull-right">346</span></a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-sign-out"></i>Meat and Seafood</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Pasta and Rice</a></li>
 
 
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Oils, Sauces, Salad Dressings, and Condiments</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Cereals and Breakfast Foods</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Soups and Canned Goods</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Frozen Foods</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Dairy, Cheese, and Eggs</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Snacks and Crackers</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Fruit</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Vegetables</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>grocery/bakery"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>food/bakery"
+               data-url="<?php echo base_url();?>food/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Drinks</a></li>
 
     </ul>

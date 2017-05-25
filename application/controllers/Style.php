@@ -16,16 +16,20 @@ class Style extends MY_Controller {
 		$this->load->view("index",$data);
 	}
 
-    /*
-   *	$page_name		=	The name of page
-   */
-    function new_room($param1 = '',$param2 = '',$param3 = '')
-    {
-        $obj = new stdClass();
-        /*$obj->room_id = $param1;*/
-        $page_data["room_detail"] = "";//$this->room_m->get_room_detail($obj);
-        $page_data["crud"] = $param2;
-        $this->load->view('customer/modal_new_room' ,$page_data);
+    public function attire(){
+        $page_data['page_title'] = get_phrase('attire');
+        $page_data ['attire'] = $this->style_m->get_all();
+        $this->load->view('style/attire',$page_data);
+    }
+    public function flower(){
+        $page_data['page_title'] = get_phrase('flower');
+        $page_data ['flower'] = $this->style_m->get_all();
+        $this->load->view('style/flower',$page_data);
+    }
+    public function hair_makeup(){
+        $page_data['page_title'] = get_phrase('hair_makeup');
+        $page_data ['hair_makeup'] = $this->style_m->get_all();
+        $this->load->view('style/hair_makeup',$page_data);
     }
 
 	

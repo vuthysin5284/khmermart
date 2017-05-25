@@ -37,7 +37,7 @@ class Photography extends MY_Controller {
         $data ['page_name'] = 'photography/music';
         $data["page_title"] = "music";
         $data ['customers'] = $this->photography_m->get_all();
-        $this->theme->load_page($data);
+        $this->load->view('photography/music' ,$data);
     }
 	
 }

@@ -40,8 +40,8 @@
                data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Seating chart</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>guest/gift"
+               data-url="<?php echo base_url();?>guest/gift" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Gifts</a></li>
 
 

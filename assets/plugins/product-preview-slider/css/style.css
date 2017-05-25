@@ -30,9 +30,10 @@ Main Components
     margin: 0 auto;
   }
   .cd-gallery > li {
-    width: 22%;
+    width: 30%;
     float: left;
-    margin-right: 4%;
+    margin-right: 1%;
+    margin-right: 2%;
     margin-bottom: 2.5em;
   }
   .cd-gallery > li:nth-of-type(4n) {
@@ -75,7 +76,7 @@ Main Components
 .cd-item-wrapper {
   position: relative;
   overflow: hidden;
-  margin: 3em 0;
+  margin: 1em 0;
   padding: 0;
 }
 .cd-item-wrapper li {
@@ -239,7 +240,7 @@ Main Components
 }
 
 .cd-item-info {
-  padding: 2em;
+  padding: 1em;
   border-bottom: 1px solid #f1f1f1;
 }
 .cd-item-info::after {

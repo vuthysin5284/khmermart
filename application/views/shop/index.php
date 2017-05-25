@@ -27,17 +27,13 @@
 
 <div class="col-md-2" style="padding-right:0px; padding-left: 10px;">
     <ul class="nav mailbox-nav" id="document" role="tablist" >
-        <li class="active default">
-            <a href="<?php echo base_url();?>shop/flower"
-               data-url="<?php echo base_url();?>shop/flower" data-toggle="tab" aria-expanded="false">
-                <i class="fa fa-inbox"></i>Flowers<span class="badge badge-success pull-right">346</span></a></li>
         <li class="default">
             <a href="<?php echo base_url();?>shop/cake"
                data-url="<?php echo base_url();?>shop/cake" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-sign-out"></i>Wedding cake</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>shop/gift"
-               data-url="<?php echo base_url();?>shop/gift" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>shop/caterer"
+               data-url="<?php echo base_url();?>shop/caterer" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Caterer</a></li>
         <li class="default">
             <a href="<?php echo base_url();?>shop/gift"
@@ -45,7 +41,7 @@
                 <i class="fa fa-file-text-o"></i>Gifts</a></li>
     </ul>
 </div>
-<div class="col-md-8">
+<div class="col-md-10">
     <div class="panel panel-white">
         <div class="panel-body mailbox-content">
 
@@ -62,11 +58,11 @@
     </div>
 </div>
 
-<div class="col-md-2">
+<!--div class="col-md-2">
     <div class="panel panel-white">
         <div class="panel-body mailbox-content">
             Recommendation
         </div>
     </div>
 
-</div>
+</div-->

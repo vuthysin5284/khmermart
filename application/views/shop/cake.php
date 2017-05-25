@@ -1,20 +1,15 @@
 <div class="table-responsive">
 <table id="example" class="display table" style="width: 100%; cellspacing: 0;">
         <thead>
-            <tr>
-                <th>ID</th>
-                <th>Names</th>
-                <th>Businnes type</th>
-                <th>Home</th>
-                <th>address</th>
-                <th>street</th>
-                <th>phone</th>
-                <th>open hour</th>
-                <th>lat</th>
-                <th>long</th>
-                <th>logo</th>
-                <th>other</th>
-                <th>social type</th>
+        <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Website</th>
+                <th>Cost (per slice)</th>
+                <th>Transport cost</th>
+                <th>Total cost</th>
+                <th>Notes</th>
             </tr>
             <tbody>
                 <?php
@@ -24,11 +19,6 @@
                             <tr>
                                 <td><?php echo $customer->id;?></td>
                                 <td><?php echo $customer->names;?></td>
-                                <td><?php echo $customer->id;?></td>
-                                <td><?php echo $customer->id;?></td>
-                                <td><?php echo $customer->id;?></td>
-                                <td><?php echo $customer->id;?></td>
-                                <td><?php echo $customer->id;?></td>
                                 <td><?php echo $customer->id;?></td>
                                 <td><?php echo $customer->id;?></td>
                                 <td><?php echo $customer->id;?></td>

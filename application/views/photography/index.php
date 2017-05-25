@@ -40,13 +40,13 @@
                data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Entertainment</a></li>
         <li class="default">
-            <a href="<?php echo base_url();?>customer/customer_list"
-               data-url="<?php echo base_url();?>grocery/bakery" data-toggle="tab" aria-expanded="false">
+            <a href="<?php echo base_url();?>photography/music"
+               data-url="<?php echo base_url();?>photography/music" data-toggle="tab" aria-expanded="false">
                 <i class="fa fa-file-text-o"></i>Music</a></li>
 
     </ul>
 </div>
-<div class="col-md-8">
+<div class="col-md-10">
     <div class="panel panel-white">
         <div class="panel-body mailbox-content">
 
@@ -63,11 +63,11 @@
     </div>
 </div>
 
-<div class="col-md-2">
+<!--div class="col-md-2">
     <div class="panel panel-white">
         <div class="panel-body mailbox-content">
             Recommendation
         </div>
     </div>
 
-</div>
+</div-->

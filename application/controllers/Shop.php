@@ -14,20 +14,15 @@ class Shop extends MY_Controller {
         $data['customers'] = $this->shop_m->get_all();
         $this->load->view('index',$data);
     }
-    public function flower(){
-        $data["page_title"] = "flower";
+    public function caterer(){
+        $data["page_title"] = "caterer";
         $data ['customers'] = $this->shop_m->get_all();
-        $this->load->view("shop/flower",$data);
+        $this->load->view("shop/caterer",$data);
     }
     public function cake(){
         $data["page_title"] = "cake";
         $data ['customers'] = $this->shop_m->get_all();
         $this->load->view("shop/cake",$data);
-    }
-    public function gift(){
-        $data["page_title"] = "gift";
-        $data ['customers'] = $this->shop_m->get_all();
-        $this->load->view("shop/gift",$data);
     }
 
 	

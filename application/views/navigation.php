@@ -4,10 +4,13 @@
             <li class="nav-heading"><span>Navigation</span></li>
 
             <li>
-                <a href="<?php echo base_url(); ?>grocery"><!--span class="menu-icon icon-grid"--></span><p>FOOD</p></a>
+                <a href="<?php echo base_url(); ?>food"><!--span class="menu-icon icon-grid"--></span><p>FOOD</p></a>
             </li>
             <li>
-                <a href="<?php echo base_url(); ?>grocery"><!--span class="menu-icon icon-grid"--></span><p>BEVERAGE</p></a>
+                <a href="<?php echo base_url(); ?>vegetable"><!--span class="menu-icon icon-grid"--></span><p>VEGETABLES</p></a>
+            </li>
+            <li>
+                <a href="<?php echo base_url(); ?>beverage"><!--span class="menu-icon icon-grid"--></span><p>BEVERAGE</p></a>
             </li>
             <li class="nav-heading"><span>Features</span></li>
 

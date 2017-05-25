@@ -1,58 +1,82 @@
-<div class="col-lg-12 content-box ">
 
-    <div class="row row-featured row-featured-category" id="classified_main">
+<style>
+    .cd-gallery {
+        margin: auto;
+    }
+</style>
 
-        <div class="col-lg-12  box-title no-border">
-            <div class="inner"><h2><span>Browse by</span>
-                    Category <a href="category.html" class="sell-your-item"> View more <i class="  icon-th-list"></i> </a></h2>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category" style="height: 182px;">
-            <a href="http://localhost:80/classified/ajax/page4" data-url="http://localhost:80/classified/ajax/page4">
-                <img src="http://localhost:80/classified/images/category/pen_stroke.png" class="img-responsive" alt="img">
-                <h6> Agriculture/ Food &amp; Beverage </h6></a>
-            <!--a href="http://localhost:80/classified/food/category">
-                <img src="http://localhost:80/classified/images/category/pen_stroke.png" class="img-responsive" alt="img">
-                <h6> Agriculture/ Food & Beverage </h6></a-->
-        </div>
+<div class="row">
 
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category" style="height: 182px;">
-            <a href="http://localhost:80/classified/ajax/page5" data-url="http://localhost:80/classified/ajax/page5">
-                <img src="http://localhost:80/classified/images/category/wedding.png" class="img-responsive" alt="img">
-                <h6> Wedding Planning Service </h6></a>
-        </div>
+    <div class="modal-header">
+        <h4 class="modal-title">Create New Room</h4>
+    </div>
+    <div class="col-md-12">
 
-        <!--div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-            <a href="http://localhost:80/classified/undercontruction">
-                <img src="http://localhost:80/classified/images/category/GeneralOffice_22.png" class="img-responsive" alt="img">
-                <h6> Packaging, Advertising & Office </h6></a>
-        </div>
+        <ul class="cd-gallery">
 
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-            <a href="http://localhost:80/classified/undercontruction">
-                <img src="http://localhost:80/classified/images/category/shop_package.png" class="img-responsive" alt="img">
-                <h6> Bags, Shoes & Accessories </h6></a>
-        </div>
+            <?php for($i=1;$i<=50; $i++){?>
 
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-            <a href="http://localhost:80/classified/undercontruction">
-                <img src="http://localhost:80/classified/images/category/health.png" class="img-responsive" alt="img"> <h6>
-                Health & Beauty </h6></a>
-        </div>
+            <li>
+                <span class="cd-sale bg-success">New</span>
+                <a href="javascript:void(0);">
+                    <ul class="cd-item-wrapper">
+                        <li class="selected">
+                            <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-1.jpg" alt="Preview image">
+                        </li>
+                    </ul>
+                </a>
+                <div class="cd-item-info">
+                    <b><a href="#0">Mountains</a></b>
+                    <em class="cd-price">$26</em>
+                </div>
+                <div class="cd-item-details">
+                    <a href="javascript:void(0);" class="pull-left add-to-cart" id="1"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                    <a href="#" class="pull-right details"><i class="fa fa-list-ul"></i>Details</a>
+                </div>
+            </li>
+            <?php } ?>
 
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-            <a href="http://localhost:80/classified/undercontruction">
-                <img src="http://localhost:80/classified/images/category/gift.png" class="img-responsive" alt="img">
-                <h6> Gifts, Sports & Toys </h6></a>
-        </div>
 
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-            <a href="http://localhost:80/classified/undercontruction">
-                <img src="http://localhost:80/classified/images/category/home_lights.png" class="img-responsive" alt="img">
-                <h6> Home, Lights & Construction </h6></a>
-        </div-->
+        </ul>
+    </div>
 
+    <div class="modal-header">
+        <h4 class="modal-title">Create New Room</h4>
+    </div>
+    <div class="col-md-12">
+
+
+        <ul class="cd-gallery">
+
+            <?php for($i=1;$i<=50; $i++){?>
+
+                <li>
+                    <span class="cd-sale bg-success">New</span>
+                    <a href="javascript:void(0);">
+                        <ul class="cd-item-wrapper">
+                            <li class="selected">
+                                <img src="<?php echo base_url(); ?>assets/images/shop/ugmonk-tshirt-1.jpg" alt="Preview image">
+                            </li>
+                        </ul>
+                    </a>
+                    <div class="cd-item-info">
+                        <b><a href="#0">Mountains</a></b>
+                        <em class="cd-price">$26</em>
+                    </div>
+                    <div class="cd-item-details">
+                        <a href="javascript:void(0);" class="pull-left add-to-cart" id="1"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                        <a href="#" class="pull-right details"><i class="fa fa-list-ul"></i>Details</a>
+                    </div>
+                </li>
+            <?php } ?>
+
+
+
+
+        </ul>
     </div>
 
 
-</div>
+
+</div><!-- Row -->
+
