@@ -40,3 +40,11 @@
 .search-input{
     text-align: center;
 }
+.panel-body {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+#main-wrapper {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
