@@ -16,19 +16,18 @@ class Auth extends CI_Controller {
 	}
 
 	public function login(){
-        /*$username = $_POST["username"];
+        $username = $_POST["username"];
         $password = $_POST["password"];
-        $result = $this->auth_m->login($username,$password);
-        var_dump($result);
-        die();*/
-
-        $user_session = array('logged'  => TRUE);
-		$this->session->set_userdata($user_session);
-		redirect(base_url());
+        $result   = $this->auth_m->login($username,$password);
+        if($result){
+        	redirect(base_url());	
+        }else{
+        	$this->index();
+        }
 	}
 
 	public function logout(){
-		$this->session->unset_userdata('logged');
+		$this->session->unset_userdata('user');
 		redirect('auth');
 	}
 
