@@ -6,7 +6,7 @@ class MY_Controller extends CI_Controller{
 		parent::__construct();
 		$this->load->library('session');
         $this->db = $this->load->database('default', TRUE);
-		if (! $this->session->userdata('logged')) {
+		if (! $this->session->userdata('user')) {
             redirect('auth');
         }
 

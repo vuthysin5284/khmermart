@@ -10,9 +10,19 @@ class Auth_model extends MY_Model {
 	}
 
 	public function login($username, $password){
+        $this->db->select('*');
         $this->db->where('username', $username);
-        $this->db->where('password', md5($password));
-        return $this->db->get($this->table);
+        $this->db->where('password', $password);
+        $this->db->from($this->table);
+        $result = $this->db->get();
+        if($result->num_rows() > 0){
+            $user = $result->row();
+            $userdata['user'] = array('username' =>$user->username,'id' =>$user->id);
+            $this->session->set_userdata($userdata);
+            return true;
+        }else{
+            return false;
+        }
     }
 
     public function update($data, $id){

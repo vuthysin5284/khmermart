@@ -61,7 +61,16 @@
                     </li-->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
-                            <span class="user-name">Sin Vuthy<i class="fa fa-angle-down"></i></span>
+                            <span class="user-name">
+                                <?php
+                                    $session = (object)$this->session->all_userdata();
+                                    if(isset($session->user) && !empty($session->user)){
+                                        $loggeduser = (object)$session->user;
+                                        echo ($loggeduser->username);
+                                    }
+                                ?>
+                                <i class="fa fa-angle-down"></i>
+                            </span>
                             <img class="img-circle avatar" src="<?php echo base_url(); ?>assets/images/avatar1.png" width="40" height="40" alt="">
                         </a>
                         <ul class="dropdown-menu dropdown-list" role="menu">
