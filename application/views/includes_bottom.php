@@ -1,5 +1,5 @@
 <!-- Page Content -->
-<nav class="cd-nav-container" id="cd-nav">
+<!--nav class="cd-nav-container" id="cd-nav">
     <header>
         <h3>Navigation</h3>
         <a href="#0" class="cd-close-nav">Close</a>
@@ -54,7 +54,7 @@
             </a>
         </li>
     </ul>
-</nav>
+</nav-->
 <div class="cd-overlay"></div>
 
 
