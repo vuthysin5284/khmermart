@@ -6,28 +6,38 @@
             </a>
         </div>
         <div class="logo-box">
-            <a href="<?php echo base_url();?>" class="logo-text"><span>The Khmermart.info</span></a>
+            <a href="<?php echo base_url();?>" class="logo-text"><span>KhmerMart</span></a>
         </div><!-- Logo Box -->
         <div class="search-button">
             <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
         </div>
         <div class="topmenu-outer">
             <div class="top-menu">
-                <ul class="nav navbar-nav navbar-left">
+                <ul class="nav navbar-nav navbar-left" style="margin-top: 14px">
                     <li>
-                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic sidebar-toggle"><i class="fa fa-bars"></i></a>
+                        <select class="form-control">
+                            <option value="">Products</option>
+                            <option value="">Supplier</option>
+                        </select>
                     </li>
                     <li>
-                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic toggle-fullscreen"><i class="fa fa-expand"></i></a>
+                        <input type="text" class="form-control" style="width: 500px" placeholder="Search ..." />
+                    </li>
+                    <li>
+                        <select class="form-control">
+                            <option value="">All Categories</option>
+                            <option value="">Agriculture & Food</option>
+                            <option value="">Wedding Service</option>
+                        </select>
+                    </li>
+                    <li>
+                        <button class="btn btn-info">Search</button>
                     </li>
 
                 </ul>
 
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
-                    </li>
 
                     <li><a href="javascript:void(0);" class="waves-effect waves-button waves-classic">ខ្មែរ</a></li>
                     <li>
@@ -38,6 +48,9 @@
                             </span>
                         </a>
                     </li>
+                    <li><a href="javascript:void(0);" class="waves-effect waves-button waves-classic">Login</a></li>
+                    <li><a href="javascript:void(0);" class="waves-effect waves-button waves-classic">Register</a></li>
+                    <li><a href="<?php echo base_url(); ?>admin"><i class="fa fa-user"></i></a></li>
 
                     <!--li class="dropdown">
                         <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
@@ -59,7 +72,7 @@
                             <li class="drop-all"><a href="#" class="text-center">Total: <?php echo $this->cart->total();?> USD</a></li>
                         </ul>
                     </li-->
-                    <li class="dropdown">
+                    <!--li class="dropdown">
                         <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
                             <span class="user-name">Sin Vuthy<i class="fa fa-angle-down"></i></span>
                             <img class="img-circle avatar" src="<?php echo base_url(); ?>assets/images/avatar1.png" width="40" height="40" alt="">
@@ -72,13 +85,13 @@
                             <li role="presentation"><a href="lock-screen.html"><i class="fa fa-lock"></i>Lock screen</a></li>
                             <li role="presentation"><a href="<?php echo base_url();?>auth/logout"><i class="fa fa-sign-out m-r-xs"></i>Log out</a></li>
                         </ul>
-                    </li>
+                    </li-->
 
-                    <li>
+                    <!--li>
                         <a href="javascript:void(0);" class="waves-effect waves-button waves-classic" id="showRight">
                             <i class="fa fa-comments"></i>
                         </a>
-                    </li>
+                    </li-->
                 </ul><!-- Nav -->
             </div><!-- Top Menu -->
         </div>
