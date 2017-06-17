@@ -64,7 +64,7 @@
 
     </ul>
 </div>
-<div class="col-md-8">
+<div class="col-md-7">
     <div class="panel-body">
         <div class="menu-overly-mask"></div>
         <div class="adds-wrapper" style="margin-bottom:200px">
@@ -74,7 +74,7 @@
 
 </div>
 
-<div class="col-md-2">
+<div class="col-md-3">
     <div class="panel panel-white">
         <div class="panel-body mailbox-content">
             Recommendation

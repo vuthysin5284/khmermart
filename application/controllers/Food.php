@@ -16,8 +16,8 @@ class Food extends CI_Controller {
 	}
 
     public function bakery(){
-        $data["page_title"] = "bakery_bread";
-        $this->load->view('food/bakery_bread',$data);
+        $data["page_title"] = "food_list";
+        $this->load->view('food/food_list',$data);
     }
 	
 }

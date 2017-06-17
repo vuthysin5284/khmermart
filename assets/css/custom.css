@@ -48,3 +48,12 @@
     margin-top: 0px;
     margin-bottom: 20px;
 }
+.form-control {
+    height: 32px;
+}
+.btn-info {
+    background-color: #22BAA0;
+}
+.navbar .logo-box {
+    background: 0 0;
+}

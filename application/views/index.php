@@ -19,8 +19,8 @@
     
 	<?php include 'includes_top.php';?> 
 	
-</head>
-<body class="page-header-fixed compact-menu page-horizontal-bar">
+</head><!--page-header-fixed-->
+<body class="compact-menu page-horizontal-bar">
 <div class="overlay"></div>
 
  
@@ -54,7 +54,7 @@
              
          </div><!-- Page Inner -->
 	</main> 
-    <?php include 'chat.php';?>
+    <!--?php include 'chat.php';?-->
     <?php include 'modal.php';?>
     <?php include 'includes_bottom.php';?>
     
